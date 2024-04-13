@@ -1,0 +1,25 @@
+Github is website that allows developers to store and manage their code using Git.
+
+https://github.com 
+
+we can generally use two methods to store and track data.
+
+(1) create directory on github then clone it on local.
+(2) create files on local first and then set remote.
+     then push the code on remote directory.
+
+
+there are 4 status of code/files
+
+(1) untracked --> new file that Git is not tracking
+(2) modified --> changes have been made
+(3) staged --> change/file is ready to be commited
+(4) unmodified --> unchanged, no change to be committed
+
+
+
+FORK:
+========
+A fork is a new repo that shares code and visibility setting with the original "upstream"
+repo.
+let's say FORK is a rough copy.

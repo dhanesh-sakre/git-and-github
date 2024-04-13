@@ -1,0 +1,83 @@
+git status   :--> to display the status of code
+
+
+ADD             
+=======     adds new or changed file in your working directory to the git
+            staging area.
+
+git add <file-name>   :--> add a file at a time
+
+git add .   :--> add all file at a time
+
+
+commited
+============  finally it take a picture and records changes.
+
+git commit -m "meaningful_messge"
+
+
+push
+========= uploads local repo content to remote repo
+
+git push origin <branch_name>
+git push origin main
+
+git -m <branch_new_name>    to change branch name
+=========================
+
+
+NOTE : if we push changes on the same branch again and again then set upstream like this:
+git push -u origin <branch-name>
+
+
+
+git push -u origin main 
+========================= :--> 1st time set this,
+git push               
+=============  :--> then type this command only
+
+
+git branch
+============ :--> to check current branch
+
+
+pull
+======= to copy the change in remote repo on local we use pull request
+
+git pull origin <branch>
+
+git pull origin main
+
+
+diff
+======: to compare two commits/branches/file   etc...
+git diff <branch name>
+
+
+merge 
+======= :-->  to merge 2 branches
+git merge <branch name>
+
+
+
+
+branch commands:
+==================
+git branch  ---> to check branch
+
+git branch -m <new name> ----> change branch name
+
+git checkout <next branch> --> to navigate on branches
+
+git checkout -b <new branch name>  --> to create new branch
+
+git branch -d <branch name>  ---> to delete the branch
+
+
+git log
+========== ---> to check detailed changes history (hash id)
+
+
+
+gitinore
+========= ---->

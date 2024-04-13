@@ -1,0 +1,34 @@
+Git :
+
+git is a version control system. it is a software which tracks history.
+it tracks changes in code.
+
+reasons we use Git:
+            * tracking history
+            * fast and free
+            * collaborate
+            * scalable
+
+
+configuring git:
+    #commands-->
+
+(1) to set user name and email id for authentication
+
+            git config --global user.name "yourName"
+            git config --global user.email "emailAddress"
+
+
+(2) to check credentials 
+
+            git config --list
+
+(3) to set default branch name if you want
+
+ git config --global init.defaultBranch <BranchName>
+
+#NOTE: master branch is default branch in Git but Github has changed its policy
+and default branch on Github is called main branch.
+
+
+

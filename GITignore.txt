@@ -1,0 +1,15 @@
+
+file name:
+=============== we use this to ignore files/folders and to add them to the staging area
+
+        .gitignore
+
+
+step (1) : create this file in the local repo  
+step (2) : open this file and write file/folder name
+
+
+to ignore files         :     filename (with extension)
+to ignore folder        :     foldername/
+to ignore specific files:     *.extension
+

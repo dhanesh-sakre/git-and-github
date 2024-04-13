@@ -1,0 +1,23 @@
+case1: for staged file/changes:    changes staged but not commited
+================================
+
+git restore --staged <file name>
+
+git reset
+
+
+
+case2: for commited changes/file:     changes staged and commited 
+=============================
+
+git reset <commit hash id>
+
+git reset --hard <commit hash id>
+
+#NOTE : To get hash id use this command ---> git log
+
+
+case3 if we want to go one commit back then
+==============================================
+
+git reset HEAD~1

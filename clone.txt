@@ -1,0 +1,5 @@
+#clone:-->
+=============
+cloning a repo on our local machine from remote..(github)
+
+git clone <link_of_remote_repo>

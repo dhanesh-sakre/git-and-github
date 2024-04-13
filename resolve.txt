@@ -1,0 +1,21 @@
+resolve merge conflicts;
+================================
+
+an event that takes place when Git is unable to automatically resolve differences
+in code between two commits.
+
+
+way1:---> 
+
+        from options
+        ================= :
+                            (1) accept current changes
+                            (2) accept incoming changes
+                            (3) accept both changes
+
+way2 :--> from code editor:
+        ====================
+                            remove extra lines and keep those changes are wanted.
+
+            then     
+                     add--> commit

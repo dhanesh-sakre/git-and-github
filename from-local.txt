@@ -1,0 +1,15 @@
+in the second  method we first create repo and files on local
+then, we push the changes on remote.
+
+
+step 0: create repo on local
+step 1: open terminal on the folder/ go to the directory using terminal
+step 2: active git on repo by using     ----->        git init
+step 3: then check for .git file          --->        ls -a         
+step 4: then set remote               ---->      git remote add origin <remote-repo-link>
+step 5: verify remote                 --->         git remote -v
+
+
+work flow:
+==========
+local--> come-in-directory--> git init -> set-remote -> verify remote-> add-> commit-> push
